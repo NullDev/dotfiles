@@ -1,4 +1,4 @@
-#This is kinda my standard message
+#This is kinda a standard message
 .PHONY: Clean Test
 
 test:
