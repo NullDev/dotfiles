@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "6"
+# Install required NPM packages
+before_script:
+ - npm install NPM1 #Edit name
+ - npm install NPM2 #Edit name
+ - npm install NPM3 #Edit name
+ - npm install request
+ - npm install process
+script: make test
