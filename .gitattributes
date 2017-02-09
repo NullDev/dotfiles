@@ -1,0 +1,4 @@
+# C Sharp  | C#
+* text=auto
+*.cs      diff=csharp
+*.md text eol=crlf
