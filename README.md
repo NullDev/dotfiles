@@ -5,3 +5,4 @@ Feel free to copy, modify and/or fork it!
 The nginx.conf scores an <strong>A+</strong> on the <a href="http://ssllabs.com">SSLLabs</a> test!<br>
 The crontab file contains an autorenew for all SSL Certificates from <a href="https://letsencrypt.org/">LetsEncrypt</a><br>
 The gitignore is aiming for <a href="https://eclipse.org/downloads/">Eclipse</a>
+The .gitattributes was made for <a href="https://docs.microsoft.com/dotnet/articles/csharp/">C#</a>
