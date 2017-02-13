@@ -15,8 +15,14 @@
 #
 # m h  dom mon dow   command
 
+# SCALES DEAMON
 @reboot cd /srv/scales && ./scales start
-@reboot cd /var/www/nulldev.org/[KIK-BOT-PATH] && forever start index.js & 
+
+# THIS AUTOMATICALLY STARTS MY KIK BOT AFTER RESTART
+
+@reboot cd /var/www/nulldev.org/[KIK-BOT-PATH] && forever start index.js &
+
+# [PUFFER PANEL & SCALES DEAMON]
 0 12 * * * cd /home && chown -R pp-proxy_a5z1rf:scalesuser /home/pp-proxy_a5z1rf/*
 
 # THIS RENEWS ALL LETSENCRYPT CERTS EVERY MONTH
