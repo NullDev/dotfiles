@@ -9,3 +9,9 @@ The .gitattributes was made for <a href="https://docs.microsoft.com/dotnet/artic
 The .npmignore skips .raw files (I use them for debugging) and files starting with "test" in src<br>
 The .crontab file also automatically starts the kik bot on server reboot now<br>
 The termcol.sh is a CheatSheet for terminal colors. Preview below
+
+<p align="center">
+<br>
+<strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike> termcol.sh preview <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike><br><br>
+<img src="https://raw.githubusercontent.com/NLDev/dotfiles/master/.src/src1.png" />
+</p>
