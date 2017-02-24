@@ -15,7 +15,8 @@ BLINK=$(tput blink)
 REVERSE=$(tput smso)
 UNDERLINE=$(tput smul)
 printf "\n\n"
-printf "${BLACK}Black\n${RED}Red\n${GREEN}Green\n${YELLOW}Yellow\n${LIME}Lime\n"
-printf "${POWDERBLUE}Powder Blue\n${BLUE}Blue\n${MAGENTA}Magenta\n${CYAN}Cyan\n"
-printf "${WHITE}White\n\n"
+printf " ${BLACK}Black${NORMAL}       : BLACK=\$(tput setaf 0)\n ${RED}Red${NORMAL}         : RED=\$(tput setaf 1)\n ${GREEN}Green${NORMAL}       : GREEN=\$(tput setaf 2)\n"
+printf " ${YELLOW}Yellow${NORMAL}      : YELLOW=\$(tput setaf 3)\n ${LIME}Lime${NORMAL}        : LIME=\$(tput setaf 190)\n"
+printf " ${POWDERBLUE}Powder Blue${NORMAL} : POWDERBLUE=\$(tput setaf 153)\n ${BLUE}Blue${NORMAL}        : BLUE=\$(tput setaf 4)\n"
+printf " ${MAGENTA}Magenta${NORMAL}     : MAGENTA=\$(tput setaf 5)\n ${CYAN}Cyan${NORMAL}        : CYAN=\$(tput setaf 6)\n ${WHITE}White${NORMAL}       : WHITE=\$(tput setaf 7)\n\n"
 exit 0
