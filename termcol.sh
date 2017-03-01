@@ -17,7 +17,7 @@ NORMAL=$(tput sgr0)
 BLINK=$(tput blink)
 REVERSE=$(tput smso)
 UNDERLINE=$(tput smul)
-printf "\n\n"
+printf "\n"
 printf " ${BLACK}Black${NORMAL}       : BLACK=\$(tput setaf 0)\n"
 printf " ${RED}Red${NORMAL}         : RED=\$(tput setaf 1)\n"
 printf " ${GREEN}Green${NORMAL}       : GREEN=\$(tput setaf 2)\n"
@@ -28,5 +28,5 @@ printf " ${BLUE}Blue${NORMAL}        : BLUE=\$(tput setaf 4)\n"
 printf " ${MAGENTA}Magenta${NORMAL}     : MAGENTA=\$(tput setaf 5)\n"
 printf " ${CYAN}Cyan${NORMAL}        : CYAN=\$(tput setaf 6)\n"
 printf " ${WHITE}White${NORMAL}       : WHITE=\$(tput setaf 7)\n"
-printf " ${RED}R${NORMAL}ESET        : NORMAL=\$(tput sgr0)\n\n"
+printf " ${RED}R${NORMAL}ESET       : NORMAL=\$(tput sgr0)\n\n"
 exit 0
