@@ -1,4 +1,7 @@
 #!/bin/bash
+#-#-#-#-#-#-#-#-#
+# COLOR PREVIEW #
+#-#-#-#-#-#-#-#-#
 BLACK=$(tput setaf 0)
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
@@ -14,7 +17,6 @@ NORMAL=$(tput sgr0)
 BLINK=$(tput blink)
 REVERSE=$(tput smso)
 UNDERLINE=$(tput smul)
-# Might clean that up later
 printf "\n\n"
 printf " ${BLACK}Black${NORMAL}       : BLACK=\$(tput setaf 0)\n"
 printf " ${RED}Red${NORMAL}         : RED=\$(tput setaf 1)\n"
