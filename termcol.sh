@@ -25,5 +25,6 @@ printf " ${POWDERBLUE}Powder Blue${NORMAL} : POWDERBLUE=\$(tput setaf 153)\n"
 printf " ${BLUE}Blue${NORMAL}        : BLUE=\$(tput setaf 4)\n"
 printf " ${MAGENTA}Magenta${NORMAL}     : MAGENTA=\$(tput setaf 5)\n"
 printf " ${CYAN}Cyan${NORMAL}        : CYAN=\$(tput setaf 6)\n"
-printf " ${WHITE}White${NORMAL}       : WHITE=\$(tput setaf 7)\n\n"
+printf " ${WHITE}White${NORMAL}       : WHITE=\$(tput setaf 7)\n"
+printf " ${RED}R${NORMAL}ESET        : NORMAL=\$(tput sgr0)\n\n"
 exit 0
