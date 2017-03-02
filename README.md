@@ -15,3 +15,8 @@ The termcol.sh is a CheatSheet for terminal colors. Preview below
 <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike> termcol.sh preview <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike><br><br>
 <img src="https://raw.githubusercontent.com/NLDev/dotfiles/master/.src/src_01.png" />
 </p>
+
+## How to clone:
+
+$ `git clone git://github.com/NLDev/dotfiles ~/.dotfiles`<br>
+$ `cd ~/.dotfiles && ls -a`
