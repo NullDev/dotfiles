@@ -13,8 +13,10 @@ The termcol.sh is a CheatSheet for terminal colors. Preview below
 <p align="center">
 <br>
 <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike> termcol.sh preview <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike><br><br>
-<img src="https://raw.githubusercontent.com/NLDev/dotfiles/master/.src/src_01.png" />
+<img src="https://raw.githubusercontent.com/NLDev/dotfiles/master/.src/src_01.png" /><br>
+<strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike>
 </p>
+<br>
 
 ## How to clone:
 
