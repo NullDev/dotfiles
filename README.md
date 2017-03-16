@@ -9,6 +9,7 @@ The .gitattributes was made for <a href="https://docs.microsoft.com/dotnet/artic
 The .npmignore skips .raw files (I use them for debugging) and files starting with "test" in src<br>
 The .crontab file also automatically starts the kik bot on server reboot now<br>
 The termcol.sh is a CheatSheet for terminal colors. Preview below
+The ./profile.d folder is located at /etc/profile.d and the scripts are used to apply parameters to the shell of all users.
 
 ## How to clone:
 
