@@ -16,6 +16,13 @@ The ./profile.d folder is located at /etc/profile.d and the scripts are used to 
 $ `git clone git://github.com/NLDev/dotfiles ~/.dotfiles`<br>
 $ `cd ~/.dotfiles && ls -a`
 
+<br>
+
+### Also: The scrips need to be made executable.<br>
+Example for `termcol.sh`:
+
+$ `chmod +x ./termcol.sh`
+
 <p align="center">
 <br>
 <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike> termcol.sh preview <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike><br><br>
