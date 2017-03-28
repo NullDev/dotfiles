@@ -22,6 +22,10 @@
 
 @reboot cd /var/www/nulldev.org/[KIK-BOT-PATH] && forever start index.js &
 
+# FOR THE GIT
+
+@reboot cd /var/www/git.nulldev.org/public_html && ./gogs web > /dev/null &
+
 # [PUFFER PANEL & SCALES DEAMON]
 0 12 * * * cd /home && chown -R pp-proxy_a5z1rf:scalesuser /home/pp-proxy_a5z1rf/*
 
