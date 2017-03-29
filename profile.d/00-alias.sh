@@ -1,2 +1,5 @@
 alias ll='ls -alF'
 alias targz='tar -zxvf'
+alias cd..='cd ..'
+alias cd...='cd ../..'
+alias cd....='cd ../../..'
