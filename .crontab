@@ -20,15 +20,20 @@
 
 # THIS AUTOMATICALLY STARTS MY KIK BOT AFTER RESTART
 
-@reboot cd /var/www/nulldev.org/[KIK-BOT-PATH] && forever start index.js &
+@reboot cd /var/www/nulldev.org/[KIK-BOT-PATH] && forever start index.js
 
 # FOR THE GIT
 
-@reboot cd /var/www/git.nulldev.org/public_html && ./gogs web > /dev/null &
+@reboot cd /var/www/git.nulldev.org/gogs && ./gogs web &
+
+# FOR THE IRC
+
+@reboot cd /usr/local/lib/node_modules/shout && forever start index.js
 
 # [PUFFER PANEL & SCALES DEAMON]
+
 0 12 * * * cd /home && chown -R pp-proxy_a5z1rf:scalesuser /home/pp-proxy_a5z1rf/*
 
-# THIS RENEWS ALL LETSENCRYPT CERTS EVERY MONTH
+# THIS RENEWS ALL LETSENCRYPT CERTS EVERY MONTH 1st [0:00]
 
-52 00,12 * * * /usr/local/sbin/certbot-auto renew --force-renewal --quiet
+0 0 1 * * /usr/local/sbin/certbot-auto renew --force-renewal --quiet
