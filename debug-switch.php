@@ -1,0 +1,22 @@
+<?php
+  /**
+   * Debug
+   * @param {int} 1 : 0
+   */
+  $debug = 1;
+  switch (debug) {
+    case 0: {
+      error_reporting(0);
+      ini_set('display_errors', 'Off');
+      set_error_handler(null);
+      break;
+    }
+    case 1: {
+      error_reporting(-1);
+      ini_set('display_errors', 'On');
+      set_error_handler("var_dump");
+      break;
+    }
+    default: break;
+  }
+?>
