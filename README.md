@@ -15,6 +15,16 @@ The cls.sh file includes bash code to clear the screen without spamming whitespa
 The debug.php file enables outputing error messages<br>
 The debug-switch.php files allows to turn on/off the error messages. 
 
+## Explanation of my Alias file at `/etc/profile.d/00-alias.sh`
+`alias ll` - Used to list all files in long list format and classify<br>
+`alias targz` - extract `.tag.gz` files. usage: `targz test.tar.gz`<br>
+`alias cd...` (and others) - just move more directories up<br>
+`alias timer` - starts a timer (can be stopped with CTRL + C) and displays time<br>
+`alias week` - displays the ISO Week number<br>
+`alias gip` - displays the public IP of the machine<br>
+`alias clearhistory` - clears the bash/terminal history and exits<br>
+`alias lnn` - prints out a specific line of a file. Usage: `lnn 4 test.txt`
+
 ## How to clone:
 
 $ `git clone git://github.com/NLDev/dotfiles ~/.dotfiles`<br>
