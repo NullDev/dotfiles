@@ -3,8 +3,8 @@
    * Debug
    * @param {int} 1 : 0
    */
-  $debug = 1;
-  switch (debug) {
+  $s_debug = 1;
+  switch ($s_debug) {
     case 0: {
       error_reporting(0);
       ini_set('display_errors', 'Off');
