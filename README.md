@@ -23,7 +23,8 @@ The debug-switch.php files allows to turn on/off the error messages.
 `alias week` - displays the ISO Week number<br>
 `alias gip` - displays the public IP of the machine<br>
 `alias clearhistory` - clears the bash/terminal history and exits<br>
-`alias lnn` - prints out a specific line of a file. Usage: `lnn 4 test.txt`
+`alias lnn` - prints out a specific line of a file. Usage: `lnn 4 test.txt`<br>
+`alias cls` - Same as cls.sh: Clears screen without whitespace flood + maximizes terminal
 
 ## How to clone:
 
