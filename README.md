@@ -16,6 +16,12 @@ The debug.php file enables outputing error messages<br>
 The debug-switch.php files allows to turn on/off the error messages. 
 
 ## Explanation of my Alias file at `/etc/profile.d/00-alias.sh`
+
+**NOTE:** If you want to update the alias file without restarting/relogin simply run:<br>
+$ `source /etc/profile.d/00-alias.sh`
+
+---
+
 `alias ll` - Used to list all files in long list format and classify<br>
 `alias targz` - extract `.tag.gz` files. usage: `targz test.tar.gz`<br>
 `alias cd...` (and others) - just move more directories up<br>
