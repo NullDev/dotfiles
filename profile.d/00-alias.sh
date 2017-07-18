@@ -9,7 +9,9 @@ alias gip='curl icanhazip.com'
 alias clearhistory='cat /dev/null > ~/.bash_history && history -c && exit' 
 alias lnn='lnn'
 alias cls='cls'
+alias chp='chp'
 
+IsOpen=null
 function lnn {
         sed -n "$1p" < $2
 }
@@ -20,4 +22,13 @@ function cls {
         printf "\033c" 
         printf "\e[8;${XA};${YA}t" 
         printf "\e[5t" 
+}
+
+function chp {
+        nc -z $1 $2; IsOpen=$?
+        if [ "$IsOpen" == "0" ]; then
+                echo "Port is in use"
+        else
+                echo "Port is not in use"
+        fi
 }
