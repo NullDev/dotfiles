@@ -10,6 +10,7 @@ alias clearhistory='cat /dev/null > ~/.bash_history && history -c && exit'
 alias lnn='lnn'
 alias cls='cls'
 alias chp='chp'
+alias epoch='epoch'
 
 IsOpen=null
 function lnn {
@@ -34,22 +35,35 @@ function chp {
 }
 
 function ext {
-   if [ -f "$1" ] ; then
-       case "$1" in
-           *.tar.bz2)   tar xvjf  "$1"    ;;
-           *.tar.gz)    tar xvzf "$1"     ;;
-           *.bz2)       bunzip2  "$1"     ;;
-           *.rar)       unrar x  "$1"     ;;
-           *.gz)        gunzip  "$1"      ;;
-           *.tar)       tar xvf  "$1"     ;;
-           *.tbz2)      tar xvjf  "$1"    ;;
-           *.tgz)       tar xvzf  "$1"    ;;
-           *.zip)       unzip  "$1"       ;;
-           *.Z)         uncompress  "$1"  ;;
-           *.7z)        7z x  "$1"        ;;
-           *)           echo "'$1' has an unknow format" ;;
-       esac
-   else
-       echo "'$1' is not a valid file."
-   fi
+        if [ -f "$1" ] ; then
+                case "$1" in
+                        *.tar.bz2)   tar xvjf  "$1"    ;;
+                        *.tar.gz)    tar xvzf "$1"     ;;
+                        *.bz2)       bunzip2  "$1"     ;;
+                        *.rar)       unrar x  "$1"     ;;
+                        *.gz)        gunzip  "$1"      ;;
+                        *.tar)       tar xvf  "$1"     ;;
+                        *.tbz2)      tar xvjf  "$1"    ;;
+                        *.tgz)       tar xvzf  "$1"    ;;
+                        *.zip)       unzip  "$1"       ;;
+                        *.Z)         uncompress  "$1"  ;;
+                        *.7z)        7z x  "$1"        ;;
+                        *)           echo "'$1' has an unknow format" ;;
+                esac
+        else
+                echo "'$1' is not a valid file."
+        fi
+}
+
+function epoch {
+        TESTREG="[\d{10}]"
+        if [[ "$1" =~ $TESTREG ]]; then
+                date -d @$*
+        else
+                if [ $# -gt 0 ]; then
+                        date +%s --date="$*"
+                else
+                        date +%s
+                fi
+        fi
 }
