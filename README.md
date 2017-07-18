@@ -32,7 +32,8 @@ $ `source /etc/profile.d/00-alias.sh`
 `alias clearhistory` - clears the bash/terminal history and exits<br>
 `alias lnn` - Line Number: prints out a specific line of a file. Usage: `lnn 4 test.txt`<br>
 `alias cls` - Clear Screen: Same as cls.sh: Clears screen without whitespace flood + maximizes terminal<br>
-`alias chp` - CheckPort: Checks if a port is open or not. Usage: `chp host port` Example: `chp nulldev.org 80`
+`alias chp` - CheckPort: Checks if a port is open or not. Usage: `chp host port` Example: `chp nulldev.org 80` <br>
+`alias epoch` - Converts unix epoch time to human readble time and reverse. Example 1: `epoch 137514859` Example 2: `epoch 22 june 2011` Example 3: `epoch` (<- empty displays the current epoch time)
 
 ## How to clone:
 
