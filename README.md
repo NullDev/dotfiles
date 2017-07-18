@@ -23,7 +23,7 @@ $ `source /etc/profile.d/00-alias.sh`
 ---
 
 `alias ll` - Used to list all files in long list format and classify<br>
-`alias targz` - extract `.tag.gz` files. usage: `targz test.tar.gz`<br>
+`alias ext` - extract many types of archive files (autodetect). usage: `ext test.tar.gz`<br>
 `alias cd...` (and others) - just move more directories up<br>
 `alias timer` - starts a timer (can be stopped with CTRL + C) and displays time<br>
 `alias week` - displays the ISO Week number<br>
