@@ -1,0 +1,1 @@
+In `/etc/profile.d/*`
