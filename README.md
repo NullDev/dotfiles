@@ -1,7 +1,9 @@
 # DotFiles
 Just a repository to store my DotFiles / Configs and Scripts.<br>
 Mostly files that start with a '.' :smile_cat:<br>
-Feel free to copy, modify and/or fork it!
+Feel free to copy, modify and/or fork it!<br>
+(I made this repo not only for storing my files, but with the aim of providing useful configs!)
+
 ## INFO:
 The nginx.conf scores an <strong>A+</strong> on the <a href="http://ssllabs.com">SSLLabs</a> analysis!&nbsp;&nbsp;&nbsp;&nbsp;> <a href="http://ssllabs.com/ssltest/analyze.html?d=nulldev.org&latest">Test Me!</a> <<br>
 The .crontab file [$ crontab -e] contains an autorenew for all SSL Certificates from <a href="https://letsencrypt.org/">LetsEncrypt</a><br>
