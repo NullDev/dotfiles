@@ -27,11 +27,11 @@ $ `source /etc/profile.d/00-alias.sh`
 `alias cd...` (and others) - just move more directories up<br>
 `alias timer` - starts a timer (can be stopped with CTRL + C) and displays time<br>
 `alias week` - displays the ISO Week number<br>
-`alias gip` - displays the public IP of the machine<br>
+`alias gip` - Get IP: displays the public IP of the machine<br>
 `alias clearhistory` - clears the bash/terminal history and exits<br>
-`alias lnn` - prints out a specific line of a file. Usage: `lnn 4 test.txt`<br>
-`alias cls` - Same as cls.sh: Clears screen without whitespace flood + maximizes terminal<br>
-`alias chp` - "CheckPort": Checks if a port is open or not. Usage: `chp host port` Example: `chp nulldev.org 80`
+`alias lnn` - Line Number: prints out a specific line of a file. Usage: `lnn 4 test.txt`<br>
+`alias cls` - Clear Screen: Same as cls.sh: Clears screen without whitespace flood + maximizes terminal<br>
+`alias chp` - CheckPort: Checks if a port is open or not. Usage: `chp host port` Example: `chp nulldev.org 80`
 
 ## How to clone:
 
