@@ -16,7 +16,8 @@ The ./profile.d folder is located at /etc/profile.d and the scripts are used to 
 The cls.sh file includes bash code to clear the screen without spamming whitespaces and it maximizes the terminal<br>
 The debug.php file enables outputing error messages<br>
 The debug-switch.php files allows to turn on/off the error messages. <br>
-The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3
+The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
+The `issue.net` file (/etc) will change the SSH Welcome message. Has to be enabled in `/etc/ssh/sshd_config` (`#Banner`)
 
 ## Explanation of my Alias file at `/etc/profile.d/00-alias.sh`
 
