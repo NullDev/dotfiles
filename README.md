@@ -13,7 +13,6 @@ The .npmignore skips .raw files (I use them for debugging) and files starting wi
 The .crontab file also automatically starts the kik bot on server reboot now<br>
 The termcol.sh is a CheatSheet for terminal colors. Preview below<br>
 The ./profile.d folder is located at /etc/profile.d and the scripts are used to apply parameters to the shell of all users.<br>
-The cls.sh file includes bash code to clear the screen without spamming whitespaces and it maximizes the terminal<br>
 The debug.php file enables outputing error messages<br>
 The debug-switch.php files allows to turn on/off the error messages. <br>
 The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
@@ -35,7 +34,7 @@ $ `source /etc/profile.d/00-alias.sh`
 `alias gip` - Get IP: displays the public IP of the machine<br><br>
 `alias clearhistory` - clears the bash/terminal history and exits<br><br>
 `alias lnn` - Line Number: prints out a specific line of a file. <br>Usage: `lnn 4 test.txt`<br><br>
-`alias cls` - Clear Screen: Same as cls.sh: Clears screen without whitespace flood + maximizes terminal<br><br>
+`alias cls` - Clear Screen: Clears the screen (terminal) without spamming whitespaces and it maximizes it as well<br><br>
 `alias chp` - CheckPort: Checks if a port is open or not. <br>Usage: `chp host port` Example: `chp nulldev.org 80` <br><br>
 `alias epoch` - Converts unix epoch time to human readble time and reverse. <br>Example 1: `epoch 137514859` Example 2: `epoch 22 june 2011` Example 3: `epoch` (<- empty displays the current epoch time)
 
