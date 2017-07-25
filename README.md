@@ -17,7 +17,8 @@ The debug.php file enables outputing error messages<br>
 The debug-switch.php files allows to turn on/off the error messages. <br>
 The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
 The `issue.net` file (/etc) changes the Pre-Login SSH message. Uncomment `#Banner` in `/etc/ssh/sshd_config` <br>
-The files located in `update-motd.d` modify the Post-Login SSH Message on Ubuntu (16.04 LTS)
+The files located in `update-motd.d` modify the Post-Login SSH Message on Ubuntu (16.04 LTS) <br>
+The file `utils.sh` will install my alias file in `/etc/profile.d` (See explanation below)
 
 ## Explanation of my Alias file at `/etc/profile.d/00-alias.sh`
 
