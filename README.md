@@ -15,6 +15,7 @@ The termcol.sh is a CheatSheet for terminal colors. Preview below<br>
 The ./profile.d folder is located at /etc/profile.d and the scripts are used to apply parameters to the shell of all users.<br>
 The debug.php file enables outputing error messages<br>
 The debug-switch.php files allows to turn on/off the error messages. <br>
+The package.json file is my standard configuration for node projects. <br>
 The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
 The `issue.net` file (/etc) changes the Pre-Login SSH message. Uncomment `#Banner` in `/etc/ssh/sshd_config` <br>
 The files located in `update-motd.d` modify the Post-Login SSH Message on Ubuntu (16.04 LTS) <br>
