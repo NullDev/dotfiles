@@ -1,0 +1,25 @@
+{
+	"name": "Name",
+	"description": "A description...",
+	"version": "1.0.0",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"debug": "node app.js --debug"
+	},
+	"dependencies": {
+		"name": "^vers"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NLDev/dotfiles"
+	},
+	"maintainers": [{
+		"name": "NullDev",
+		"email": "admin@nulldev.org",
+		"web": "nulldev.org"
+	}],
+	"license": "Apache-2.0",
+	"author": "NullDev",
+	"homepage": "https://nulldev.org"
+}
