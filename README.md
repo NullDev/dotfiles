@@ -28,6 +28,14 @@ $ `source /etc/profile.d/00-alias.sh`
 
 ---
 
+**NOTE:** If you want to automatically enable all alias on startup, add the line <br>
+```bash
+source /etc/profile.d/00-alias.sh
+```
+To your `rc.local` file at `/etc/rc.local` (befor the line `exit 0`)
+
+---
+
 `alias ll` - Used to list all files in long list format and classify<br><br>
 `alias ext` - extract many types of archive files (autodetect). <br>usage: `ext test.tar.gz`<br><br>
 `alias cd...` (and others) - just move more directories up<br><br>
