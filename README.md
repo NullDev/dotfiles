@@ -19,6 +19,7 @@ The package.json file is my standard configuration for node projects. <br>
 The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
 The `issue.net` file (/etc) changes the Pre-Login SSH message. Uncomment `#Banner` in `/etc/ssh/sshd_config` <br>
 The files located in `update-motd.d` modify the Post-Login SSH Message on Ubuntu (16.04 LTS) <br>
+The `forever-start.sh` file starts all node scripts in given directories (see screenshot) <br>
 The file `utils.sh` will install my alias file in `/etc/profile.d` (See explanation below)
 
 ## Explanation of my Alias file at `/etc/profile.d/00-alias.sh`
@@ -68,6 +69,10 @@ $ `chmod +x ./termcol.sh`
 <br>
 <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike> SSL-Labs Test <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike><br><br>
 <img src="https://raw.githubusercontent.com/NLDev/dotfiles/master/.src/ssl-test.png" /><br>
-<strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike>
+<br>
+<br>
+<strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike> Forever-Start.sh <strike>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strike><br>
+<br>
+<img src="https://raw.githubusercontent.com/NLDev/dotfiles/master/.src/forever.png" /><br>
 </p>
 <br>
