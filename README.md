@@ -22,6 +22,13 @@ The files located in `update-motd.d` modify the Post-Login SSH Message on Ubuntu
 The `forever-start.sh` file starts all node scripts in given directories (see screenshot) <br>
 The file `utils.sh` will install my alias file in `/etc/profile.d` (See explanation below)
 
+**Also**: The forever-start.sh file features two arguments: <br>
+
+| Argument | Explanation |
+|----------|-------------|
+| `-s` or `--stop`    | Stops all scripts              |
+| `-r` or `--restart` | Stops and restarts all scripts |
+
 ## Explanation of my Alias file at `/etc/profile.d/00-alias.sh`
 
 **NOTE:** If you want to update the alias file without restarting/relogin simply run:<br>
