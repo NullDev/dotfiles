@@ -6,7 +6,13 @@ scr="app.js"
 # PATHS
 declare -a arr=(
 	"directory1"
-        "directory2"
+	"directory2"
+)
+
+# OTHER ABSOLUT PATHS, FORMAT: "NAME COMMAND/PATH" OR BLANK FOR NONE
+declare -a abs=(
+	"ExampleScript1 -c python /path/to/script.py"
+	"ExampleScript2 /path/to/script.js"
 )
 
 # MAIN
@@ -25,18 +31,31 @@ function main {
 	printf "    ${LBLUE}#${WHITE}---------------------${LBLUE}#\n"
 	printf "    ${LBLUE}#######################${NORMAL}\n\n\n"
 
-	printf "${LBLUE}-----------------------${NORMAL}\n"
+	printf "${LBLUE}------------------------${NORMAL}\n"
 
 	for i in "${arr[@]}"
 	do
 		tmp_path="./${i}/${scr}"
 		printf "${LIME}Starting ${RED}${i} ${LIME}at path ${LBLUE}$(pwd)/${i}/${scr}${NORMAL}\n"
 		printf "${LIME}+ + + + + + + + + + + +${NORMAL}\n"
-		printf "$(forever start -a --minUptime 1000 --spinSleepTime 1000 --uid "${i}" ${tmp_path})"
+		printf "$(forever start -a --minUptime 1000 --spinSleepTime 1000 --uid ${i} ${tmp_path})"
 		printf "\n${LIME}+ + + + + + + + + + + +${NORMAL}\n"
 		printf "${GREEN}Started!${NORMAL}\n"
 		printf "${LBLUE}-----------------------${NORMAL}\n"
 	done
+
+	printf "\n${LBLUE}------- Externsls -------${NORMAL}\n\n"
+
+	for i in "${abs[@]}"
+        do
+                printf "${LIME}Starting external script ${RED}${i}\n"
+                printf "${LIME}+ + + + + + + + + + + +${NORMAL}\n"
+                printf "$(forever start -a --minUptime 1000 --spinSleepTime 1000 --uid ${i})"
+                printf "\n${LIME}+ + + + + + + + + + + +${NORMAL}\n"
+                printf "${GREEN}Started!${NORMAL}\n"
+                printf "${LBLUE}------------------------${NORMAL}\n"
+        done
+
 
 	printf "\n\n    ${LBLUE}#######################\n"
 	printf "    ${LBLUE}#${WHITE}---------------------${LBLUE}#\n"
@@ -61,7 +80,7 @@ function init {
 		printf "    ${LBLUE}#${WHITE}--------------------${LBLUE}#\n"
 		printf "    ${LBLUE}######################${NORMAL}\n\n\n"
 
-		printf "${LBLUE}-----------------------${NORMAL}\n"
+		printf "${LBLUE}------------------------${NORMAL}\n"
 
 		printf "${LIME}+ + + + + + + + + + + +${NORMAL}\n"
 		printf "$(forever stopall)"
