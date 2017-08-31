@@ -46,16 +46,17 @@ function main {
 
 	printf "\n${LBLUE}------- Externsls -------${NORMAL}\n\n"
 
-	for i in "${abs[@]}"
-        do
-                printf "${LIME}Starting external script ${RED}${i}\n"
-                printf "${LIME}+ + + + + + + + + + + +${NORMAL}\n"
-                printf "$(forever start -a --minUptime 1000 --spinSleepTime 1000 --uid ${i})"
-                printf "\n${LIME}+ + + + + + + + + + + +${NORMAL}\n"
-                printf "${GREEN}Started!${NORMAL}\n"
-                printf "${LBLUE}------------------------${NORMAL}\n"
-        done
-
+	if [ ! -z "$abs" ]; then
+		for i in "${abs[@]}"
+        	do
+                	printf "${LIME}Starting external script ${RED}${i}\n"
+                	printf "${LIME}+ + + + + + + + + + + +${NORMAL}\n"
+                	printf "$(forever start -a --minUptime 1000 --spinSleepTime 1000 --uid ${i})"
+                	printf "\n${LIME}+ + + + + + + + + + + +${NORMAL}\n"
+                	printf "${GREEN}Started!${NORMAL}\n"
+                	printf "${LBLUE}------------------------${NORMAL}\n"
+        	done
+	fi
 
 	printf "\n\n    ${LBLUE}#######################\n"
 	printf "    ${LBLUE}#${WHITE}---------------------${LBLUE}#\n"
