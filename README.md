@@ -20,7 +20,8 @@ The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LO
 The `issue.net` file (/etc) changes the Pre-Login SSH message. Uncomment `#Banner` in `/etc/ssh/sshd_config` <br>
 The files located in `update-motd.d` modify the Post-Login SSH Message on Ubuntu (16.04 LTS) <br>
 The `forever-start.sh` file starts all node scripts in given directories (see screenshot) <br>
-The file `utils.sh` will install my alias file in `/etc/profile.d` (See explanation below)
+The file `utils.sh` will install my alias file in `/etc/profile.d` (See explanation below) <br>
+The `.github` folder contains an `issues` template. To see what it does, try to open an Issue on this repo.
 
 **Also**: The forever-start.sh file features two arguments: <br>
 
