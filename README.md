@@ -43,19 +43,21 @@ source /etc/profile.d/00-alias.sh
 ```
 To your `rc.local` file at `/etc/rc.local` (befor the line `exit 0`)
 
----
+| Alias | Explanation |   Usage   | Examples |
+|-------|-------------|-----------|----------|
+| ll           | Used to list all files in long list format and classify |
+| ext          | Extract many types of archive files with the same command (autodetect) | ext file | `ext test.tar.gz` |
+| cd...        | (and others) - Just move more directories up |
+| timer        | Starts a timer (can be stopped with CTRL + C) and displays time |
+| week         | Displays the ISO Week number |
+| gip          | Get IP: displays the public IP of the machine |
+| clearhistory | clears the bash/terminal history **and exits** |
+| lnn          | Line Number: prints out a specific line of a file | lnn line file <!-- Dont ask... -->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | `lnn 4 test.txt` |
+| cls          | Clear Screen: Clears the screen (terminal) without spamming whitespaces and it maximizes it as well |
+| chp          | CheckPort: Checks if a port is open or not | chp host port | `chp nulldev.org 80` |
+| epoch        | Converts unix epoch time to human readble time and reverse | epoch | `epoch 137514859`, `epoch 22 june 2011`, `epoch` |
 
-`alias ll` - Used to list all files in long list format and classify<br><br>
-`alias ext` - extract many types of archive files (autodetect). <br>usage: `ext test.tar.gz`<br><br>
-`alias cd...` (and others) - just move more directories up<br><br>
-`alias timer` - starts a timer (can be stopped with CTRL + C) and displays time<br><br>
-`alias week` - displays the ISO Week number<br><br>
-`alias gip` - Get IP: displays the public IP of the machine<br><br>
-`alias clearhistory` - clears the bash/terminal history and exits<br><br>
-`alias lnn` - Line Number: prints out a specific line of a file. <br>Usage: `lnn 4 test.txt`<br><br>
-`alias cls` - Clear Screen: Clears the screen (terminal) without spamming whitespaces and it maximizes it as well<br><br>
-`alias chp` - CheckPort: Checks if a port is open or not. <br>Usage: `chp host port` Example: `chp nulldev.org 80` <br><br>
-`alias epoch` - Converts unix epoch time to human readble time and reverse. <br>Example 1: `epoch 137514859` Example 2: `epoch 22 june 2011` Example 3: `epoch` (<- empty displays the current epoch time)
+---
 
 ## How to clone:
 
