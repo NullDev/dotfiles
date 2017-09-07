@@ -42,7 +42,7 @@ $ `source /etc/profile.d/00-alias.sh`
 ```bash
 source /etc/profile.d/00-alias.sh
 ```
-To your `rc.local` file at `/etc/rc.local` (befor the line `exit 0`)
+To your `rc.local` file at `/etc/rc.local` (befor the line `exit 0`) like I did on <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local#L4">Line 4</a> of my <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local">rc.local</a> file.
 
 | Alias | Explanation |   Usage   | Examples |
 |-------|-------------|-----------|----------|
