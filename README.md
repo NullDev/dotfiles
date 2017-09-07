@@ -16,12 +16,12 @@ The ./profile.d folder is located at `/etc/profile.d` and the scripts are used t
 The debug.php file enables outputing error messages<br>
 The debug-switch.php files allows to turn on/off the error messages. <br>
 The package.json file is my standard configuration for node projects. <br>
-The file `LOLCODE.tmLanguage` in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
+The file <a href="https://github.com/NLDev/dotfiles/blob/master/sublime/LOLCODE.tmLanguage">LOLCODE.tmLanguage</a> in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
 The `issue.net` file (/etc) changes the Pre-Login SSH message. Uncomment `#Banner` in `/etc/ssh/sshd_config` <br>
 The files located in `update-motd.d` modify the Post-Login SSH Message on Ubuntu (16.04 LTS) <br>
-The `forever-start.sh` file starts all node scripts in given directories (see screenshot) <br>
-The file `utils.sh` will install my alias file in `/etc/profile.d` (See explanation below) <br>
-The `.github` folder contains an `issues` template. To see what it does, try to open an Issue on this repo. <br>
+The <a href="https://github.com/NLDev/dotfiles/blob/master/forever-start.sh">forever-start.sh</a> file starts all node scripts in given directories (see screenshot) <br>
+The file <a href="https://github.com/NLDev/dotfiles/blob/master/utils.sh">utils.sh</a> will install my alias file in `/etc/profile.d` (See explanation below) <br>
+The <a href="https://github.com/NLDev/dotfiles/tree/master/.github">.github</a> folder contains an `issues` template. To see what it does, try to open an Issue on this repo. <br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local">rc.local</a> file (`/etc/rc.local`) launches <a href="https://github.com/NLDev/dotfiles/blob/master/forever-start.sh">forever-start.sh</a> on reboot
 
 **Also**: The forever-start.sh file features two arguments: <br>
