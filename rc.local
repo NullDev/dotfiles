@@ -1,0 +1,5 @@
+#!/bin/sh -e
+
+/home/api/forever-start.sh
+
+exit 0
