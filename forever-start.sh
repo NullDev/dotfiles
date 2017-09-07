@@ -1,4 +1,5 @@
 #!/bin/bash
+cd "$(dirname "$0")"
 
 # SCRIPT NAME
 scr="app.js"
@@ -44,7 +45,7 @@ function main {
 		printf "${LBLUE}-----------------------${NORMAL}\n"
 	done
 
-	printf "\n${LBLUE}------- Externsls -------${NORMAL}\n\n"
+	printf "\n${LBLUE}------- Externals -------${NORMAL}\n\n"
 
 	if [ ! -z "$abs" ]; then
 		for i in "${abs[@]}"
