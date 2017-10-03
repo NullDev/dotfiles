@@ -22,7 +22,8 @@ The files located in <a href="https://github.com/NLDev/dotfiles/tree/master/upda
 The <a href="https://github.com/NLDev/dotfiles/blob/master/forever-start.sh">forever-start.sh</a> file starts all node scripts in given directories (see screenshot) <br>
 The file <a href="https://github.com/NLDev/dotfiles/blob/master/utils.sh">utils.sh</a> will install my alias file in `/etc/profile.d` (See explanation below) <br>
 The <a href="https://github.com/NLDev/dotfiles/tree/master/.github">.github</a> folder contains an `issues` template. To see what it does, try to open an Issue on this repo. <br>
-The <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local">rc.local</a> file (`/etc/rc.local`) launches <a href="https://github.com/NLDev/dotfiles/blob/master/forever-start.sh">forever-start.sh</a> on reboot
+The <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local">rc.local</a> file (`/etc/rc.local`) launches <a href="https://github.com/NLDev/dotfiles/blob/master/forever-start.sh">forever-start.sh</a> on reboot <br>
+The <a href="https://github.com/NLDev/dotfiles/blob/master/streak">streak</a> file is used for my GitHub commit streak which is automated by my [open source github commit streak bot](https://github.com/NLDev/GitHub-Commit-Streak)
 
 **Also**: The forever-start.sh file features two arguments: <br>
 
