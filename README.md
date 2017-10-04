@@ -7,7 +7,7 @@ Feel free to copy, modify and/or fork it!<br>
 ## INFO:
 The <a href="https://github.com/NLDev/dotfiles/blob/master/nginx.conf">nginx.conf</a> scores an <strong>A+</strong> on the <a href="http://ssllabs.com">SSLLabs</a> analysis!&nbsp;&nbsp;&nbsp;&nbsp;> <a href="https://www.ssllabs.com/ssltest/analyze.html?d=nulldev.org&latest">Test Me!</a> <<br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/.crontab">.crontab</a> file [`$ crontab -e`] contains an autorenew for all SSL Certificates from <a href="https://letsencrypt.org/">LetsEncrypt</a><br>
-The <a href="https://github.com/NLDev/dotfiles/blob/master/.gitignore">.gitignore</a> is aiming for <a href="https://eclipse.org/downloads/">Eclipse</a><br>
+The (custom) <a href="https://github.com/NLDev/dotfiles/blob/master/.gitignore">.gitignore</a> is aiming for <a href="https://nodejs.org/">NodeJS</a><br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/.gitattributes">.gitattributes</a> was made for <a href="https://docs.microsoft.com/dotnet/articles/csharp/">C#</a><br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/.npmignore">.npmignore</a> skips `.raw` files (I use them for debugging) and files starting with "test" in src<br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/.crontab">.crontab</a> file also automatically starts the kik bot on server reboot now<br>
