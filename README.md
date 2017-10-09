@@ -19,10 +19,10 @@ The <a href="https://github.com/NLDev/dotfiles/blob/master/package.json">package
 The file <a href="https://github.com/NLDev/dotfiles/blob/master/sublime/LOLCODE.tmLanguage">LOLCODE.tmLanguage</a> in the submlime folder is syntax highliting for LOLCODE in Sublime Text 3<br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/issue.net">issue.net</a> file (/etc) changes the Pre-Login SSH message. Uncomment `#Banner` in `/etc/ssh/sshd_config` <br>
 The files located in <a href="https://github.com/NLDev/dotfiles/tree/master/update-motd.d">update-motd.d</a> modify the Post-Login SSH Message on Ubuntu (16.04 LTS) <br>
-The <a href="https://github.com/NLDev/dotfiles/blob/master/forever-start.sh">forever-start.sh</a> file starts all node scripts in given directories (see screenshot) <br>
+The <a href="https://github.com/NLDev/forever.sh">forever-start.sh</a> file starts all node scripts in given directories (see screenshot)[MOVED] <br>
 The file <a href="https://github.com/NLDev/dotfiles/blob/master/utils.sh">utils.sh</a> will install my alias file in `/etc/profile.d` (See explanation below) <br>
 The <a href="https://github.com/NLDev/dotfiles/tree/master/.github">.github</a> folder contains an `issues` template. To see what it does, try to open an Issue on this repo. <br>
-The <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local">rc.local</a> file (`/etc/rc.local`) launches <a href="https://github.com/NLDev/dotfiles/blob/master/forever-start.sh">forever-start.sh</a> on reboot <br>
+The <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local">rc.local</a> file (`/etc/rc.local`) launches <a href="https://github.com/NLDev/forever.sh">forever-start.sh</a> on reboot <br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/streak">streak</a> file is used for my GitHub commit streak which is automated by my [open source github commit streak bot](https://github.com/NLDev/GitHub-Commit-Streak)
 
 **Also**: The forever-start.sh file features two arguments: <br>
