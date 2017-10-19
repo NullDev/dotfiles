@@ -23,7 +23,8 @@ The <a href="https://github.com/NLDev/forever.sh">forever-start.sh</a> file star
 The file <a href="https://github.com/NLDev/dotfiles/blob/master/utils.sh">utils.sh</a> will install my alias file in `/etc/profile.d` (See explanation below) <br>
 The <a href="https://github.com/NLDev/dotfiles/tree/master/.github">.github</a> folder contains an `issues` template. To see what it does, try to open an Issue on this repo. <br>
 The <a href="https://github.com/NLDev/dotfiles/blob/master/rc.local">rc.local</a> file (`/etc/rc.local`) launches <a href="https://github.com/NLDev/forever.sh">forever-start.sh</a> on reboot <br>
-The <a href="https://github.com/NLDev/dotfiles/blob/master/streak">streak</a> file is used for my GitHub commit streak which is automated by my [open source github commit streak bot](https://github.com/NLDev/GitHub-Commit-Streak)
+The <a href="https://github.com/NLDev/dotfiles/blob/master/streak">streak</a> file is used for my GitHub commit streak which is automated by my [open source github commit streak bot](https://github.com/NLDev/GitHub-Commit-Streak) <br>
+The <a href="https://github.com/NLDev/dotfiles/blob/master/HTML-Boilerplate.js">HTML-Boilerplate.js</a> file is a NodeJS script which creates folder structures and adds basic content.
 
 **Also**: The forever-start.sh file features two arguments: <br>
 
@@ -31,6 +32,12 @@ The <a href="https://github.com/NLDev/dotfiles/blob/master/streak">streak</a> fi
 |----------|-------------|
 | `-s` or `--stop`    | Stops all scripts              |
 | `-r` or `--restart` | Stops and restarts all scripts |
+
+## HTML-Boilerplate.js
+Can be run either by simply typing `node HTML-Boilerplate.js`. <br>
+You will be promted for the project name. <br>
+Alternatively you can run it by typing `node HTML-Boilerplate.js YOUR-PROJECT-NAME` to pass the name to the script without getting prompted for input. <br>
+Has zero dependencies. 
 
 ## Explanation of my Alias file at `/etc/profile.d/00-alias.sh`
 
