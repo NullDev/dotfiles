@@ -36,4 +36,4 @@
 
 # THIS RENEWS ALL LETSENCRYPT CERTS EVERY MONTH 1st [0:00]
 
-0 0 1 * * /usr/local/sbin/certbot-auto renew --force-renewal --quiet
+45 6 * * * /usr/local/sbin/certbot-auto renew --force-renewal --quiet 
