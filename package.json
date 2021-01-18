@@ -1,27 +1,31 @@
 {
-	"name": "Name",
-	"description": "A description...",
-	"version": "0.1.0",
-	"main": "app.js",
-	"scripts": {
-		"start": "node app.js",
-		"debug": "node app.js --debug"
-	},
-	"dependencies": {
-		"name": "^vers"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/NullDev/dotfiles"
-	},
-	"maintainers": [
-		{
-			"name": "NullDev",
-			"email": "admin@nulldev.org",
-			"web": "nulldev.org"
-		}
-	],
-	"license": "Apache-2.0",
-	"author": "NullDev",
-	"homepage": "https://nulldev.org"
+  "name": "name",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A description",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "lint": "eslint ./src",
+    "dev": "npm run lint && npm start"
+  },
+  "author": "NullDev",
+  "license": "MIT",
+  "homepage": "https://nulldev.org",
+  "maintainers": [
+    {
+      "name": "NullDev",
+      "email": "admin@nulldev.org",
+      "web": "nulldev.org"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "eslint": "^7.15.0"
+  },
+  "engines": {
+    "node": ">=14.3.0"
+  }
 }
